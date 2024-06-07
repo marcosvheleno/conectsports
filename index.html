@@ -16,23 +16,22 @@
             <a class="btn-menu" href="transportep.html">
                 Transporte Público
             </a>
-            <a class="btn-menu" href="sobre.html">
-                Sobre
-            </a>
             <a class="btn-menu" href="iframe.html">Localização de Espaços
             </a>
             <a class="btn-menu" href="relatos.html">
                 Cadastro de atividades e feedbacks
             </a>
+            <a class="btn-menu" href="sobre.html">
+                Sobre
+            </a>
             <a class="btn-menu" href="contato.html">
                 Contato
             </a>
-            <a class="btn-menu" href="#">
-                Chat
+            <a class="btn-menu" href="login.html">
+                Login
             </a>
             <a class="btn-menu" href="#">
-                Login
-                
+                Logout
             </a>
              </div><!--Menu-->
              <div class="menu-mobile".
@@ -46,33 +45,32 @@
             <div class="main__cta">
                 <h2>Conect Sports</h2>
                 <p>Uma plataforma completa para a população e prefeitura que desejam se manter atualizados e conectados em relação à prática esportiva</p>
-                <button>Get Started</button>
                 
             </div><!--main-cta-->
 
             <div class="diferenciais">
                 <div class="diferencial-single">
                     <i class="fas fa-anchor"></i>
-                    <h2>Lorem ipsum</h2>
-                    <p>Texto de testes, ConectSports</p>
+                    <h2>Dica nº 1</h2>
+                    <p>Adote hábitos saudáveis: alimente-se de maneira saudável e não fume</p>
 
                 </div><!--diferencial-single-->
                 <div class="diferencial-single">
                     <i class="fas fa-anchor"></i>
-                    <h2>Lorem ipsum</h2>
-                    <p>Texto de testes, ConectSports</p>
+                    <h2>Dica nº 2</h2>
+                    <p>Evite café e bebidas alcoólicas em excesso; não dirija após ingerir bebida alcoólica e procure dormir 8 horas por dia;</p>
 
                 </div><!--diferencial-single-->
                 <div class="diferencial-single">
                     <i class="fas fa-anchor"></i>
-                    <h2>Lorem ipsum</h2>
-                    <p>Texto de testes, ConectSports</p>
+                    <h2>Dica nº 3</h2>
+                    <p>Faça atividades esportivas e de lazer regularmente;Trabalho: programe e tire férias anuais; não leve serviço para casa; mantenha o ambiente de trabalho limpo, iluminado, ventilado, sem cigarros, poluição ou barulho excessivo; em momentos de tensão faça um relaxamento com respiração lenta e pausada.</p>
 
                 </div><!--diferencial-single-->
                 <div class="diferencial-single">
                     <i class="fas fa-anchor"></i>
-                    <h2>Lorem ipsum</h2>
-                    <p>Texto de testes, ConectSports</p>
+                    <h2>Dica nº 4</h2>
+                    <p>Esporte e lazer: faça 30 minutos diários de atividade física, de forma contínua; suba e desça escadas em vez de usar elevador; nos momentos livres faça caminhada, pratique esportes, dance; escute música;</p>
 
                 </div><!--diferencial-single-->
 
@@ -99,5 +97,27 @@
     
     <script src="https://kit.fontawesome.com/16544f2866.js" crossorigin="anonymous"></script>
 </body>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatbot ConectSports</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="chat-popup" id="chat-popup">
+        <div class="chat-container">
+            <button class="chat-close" id="chat-close">&times;</button>
+            <div class="chat-box">
+                <div id="chat-log" class="chat-log"></div>
+                <input type="text" id="user-input" class="chat-input" placeholder="Digite sua mensagem...">
+                <button id="send-button" class="chat-button">Enviar</button>
+            </div>
+        </div>
+    </div>
+    <button class="open-chat-button" id="open-chat-button">Abrir Chat</button>
+    <script src="script.js"></script>
+</body>
+</html>
 
 </html>
