@@ -9,6 +9,8 @@ document.addEventListener('DOMContentLoaded', function() {
     const botResponses = {
         "olá": "Olá! Seja bem-vindo ao ConectSports. Como posso ajudar?",
         "gostaria conhecer mais sobre esportes ?": "Ahh então você está no lugar certo!",
+        "qual o contato de vocês?": "Atendimento de Segunda à Sexta-feiras das 07:00hrs às 18:00hrs, aos fins de semana reclamações podem ser realizadas via e-mail: conectsports@gmail.com - Telefone (31) 3080-2002 ou Central: 0800-880-6632",
+        "qual o horário de funcionamento dos parques e poliesportivos ?": "Parques da Cidade – Sexta, sábado, domingo e terça-feira – Das 5h às 22h, com entrada permitida até as 21h – Segunda-feira e quarta – Das 5h às 21h, com entrada permitida até as 20h30 Poliesportivos – Sexta, sábado, segunda e quarta – Das 6h às 21h – Domingos e terça-feira – Das 7h às 18h",
         "o que é a conectsports ?":"O aplicativo CONECT SPORTS é uma plataforma completa para a população e prefeitura que desejam se manter atualizados e conectados em relação à prática esportiva. Ele oferece informações sobre eventos esportivos, programas de treinamento, dicas de saúde e nutrição, além de permitir que os usuários se conectem com outros entusiastas de esportes e prefeitura.",
         "como posso ajudar": "Estou aqui para responder suas perguntas sobre o ConectSports.",
         "como você está?": "Estou bem, obrigado por perguntar! E você?",
